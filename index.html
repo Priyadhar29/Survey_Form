@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 id="title">Customer Satisfaction Survey</h1>
+  <p id="description">We value your feedback! Please fill out this short survey to help us improve.</p>
+
+  <form id="survey-form">
+    <!-- Name -->
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <!-- Email -->
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <!-- Number -->
+    <label id="number-label" for="number">Age:</label>
+    <input type="number" id="number" name="age" min="10" max="100" placeholder="Enter your age" required>
+
+    <!-- Dropdown -->
+    <label for="dropdown">Which service do you use the most?</label>
+    <select id="dropdown" name="service">
+      <option value="">Select an option</option>
+      <option value="delivery">Delivery</option>
+      <option value="pickup">Pickup</option>
+    </select>
+
+    <!-- Radio buttons -->
+    <div class="radio-group">
+      <p>How would you rate our service?</p>
+      <label><input type="radio" name="rating" value="excellent"> Excellent</label>
+      <label><input type="radio" name="rating" value="good"> Good</label>
+    </div>
+
+    <!-- Checkboxes -->
+    <div class="checkbox-group">
+      <p>What features do you use? (Select all that apply)</p>
+      <label><input type="checkbox" value="mobile_app"> Mobile App</label>
+      <label><input type="checkbox" value="website"> Website</label>
+    </div>
+
+    <!-- Textarea -->
+    <label for="comments">Additional Comments:</label>
+    <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here..."></textarea>
+
+    <!-- Submit -->
+    <button id="submit" type="submit">Submit</button>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+#description {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+#survey-form {
+  background-color: white;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.radio-group, .checkbox-group {
+  margin-bottom: 15px;
+}
+
+.radio-group label, .checkbox-group label {
+  font-weight: normal;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
