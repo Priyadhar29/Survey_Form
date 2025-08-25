@@ -29,7 +29,7 @@ Survey Form/
 
 ## ✅ Live Demo
 
-View Project on GitHub Pages
+[View Project on GitHub Pages](https://priyadhar29.github.io/Survey_Form/)
 
 ---
 
